@@ -1,0 +1,43 @@
+/* styles.css */
+.row{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.container-card {
+  align-items: center; /* Centraliza verticalmente o conteúdo */
+}
+.container-graficoPizza{
+  align-items: center;
+}
+.card-container {
+  margin-right: 20px; /* Margem direita para espaçamento */
+}
+
+.card {
+  background-color: #f8f9fa; /* Cor de fundo do cartão */
+  border: 1px solid #ced4da; /* Borda do cartão */
+  border-radius: 5px; /* Cantos arredondados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra do cartão */
+  padding: 20px; /* Espaçamento interno */
+  width: 200px; /* Largura do cartão */
+}
+.total-energia{
+  display: flex;
+  justify-content: flex-end;
+}
+.div-cliente{
+  display: flex;
+  justify-content: center;
+}
+.energia-compensada{
+  display: flex;
+  position: relative;
+  left: 100px;
+  top: -130px;
+}
+.energia-compensadavalor{
+  color: #4c956c;
+  position: relative;
+  top: 150px;
+}

@@ -1,0 +1,26 @@
+/* styles.css */
+.navbar {
+    background-color: #C0C0C0; /* Cor de fundo da navbar */
+  }
+  
+  .navbar-nav {
+    display: flex; /* Define o layout como flexível */
+    list-style: none; /* Remove as bolinhas das listas */
+    padding: 20px; /* Remove o espaçamento interno */
+    margin-top: 0;
+  }
+  
+  .nav-item {
+    margin-right: 10px; /* Margem entre os itens */
+  }
+  
+  .nav-link {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    padding: 10px; /* Espaçamento interno dos links */
+  }
+  
+  .nav-link:hover {
+    background-color: #555; /* Cor de fundo dos links quando passa o mouse */
+  }
+  
